@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Doing Hober style in a HTML.</title>
+
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        h2:hover{
+            background-color: red;
+            font-size: larger;
+            color: white;
+        }
+        .special:hover{
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        input:focus{
+            color: black;
+            background-color:blue;
+            font-size: xx-large;
+        }
+        li:nth-child(2n){
+            color: blue;
+            background-color: yellowgreen;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        h2::before{
+            content: "MERN ";
+            font-size: small;
+            background-color: black;
+            color: white;
+        }
+        .special::after{
+            content: "Before&After tag in CSS";
+            background-color: aqua;
+            color: red;
+            font-size: large;
+        }
+        body{
+            counter-reset: section;
+        }
+        li::before{
+            counter-increment: section;
+            content: "Disha "counter(section) " :- ";
+        }
+    </style>
+</head>
+<body>
+    <h1>In this project we will learn a new style element That's Called <span style="color: red;">Hober</span>.</h1>
+    <h2>Hober is a special type of style tag.</h2>
+    <h2>By using hober we can style our project by so many different type.</h2>
+    <h2 class="special">Special type of Hover.</h2>
+
+    <input name = "gmail" type="text">
+    <br>
+    <br>
+    <input name = "Password" type="text">
+    <br>
+    <ul>
+        <h1>My Favourite Dish</h1>
+        <li>Biriani</li>
+        <li>Khicuri</li>
+        <li>Beef</li>
+        <li>Chicken</li>
+        <li>Matton</li>
+        <li>Fish</li>
+        <li>Duck</li>
+    </ul>
+
+    <a href="https://www.facebook.com/?_rdc=2&_rdr">Visit My facebook</a>
+    <br>
+    <a href="https://www.youtube.com/">Visit Youtube</a>
+    <br>
+    <a href="www.ybf.com">Visit YBF</a>
+</body>
+</html>
