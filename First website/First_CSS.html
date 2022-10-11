@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>CSS -> Cascading Style Sheet.</title>
+
+    <style>
+        h1{
+            text-align: center;
+
+            color :black;
+           
+            height: 50%;
+            width: 500px;
+        }
+
+        .Paragraph{
+            color : white ;
+            background-color: black;
+            height: 50%;
+            width: 80%;
+            font-size: 25px;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #Student_Name{
+            background-color: rgba(0, 0, 0, 0.086);
+            font-size: 100px;
+            color: blue;
+        }
+
+        #Student_ID{
+            background-color: rgba(0, 0, 0, 0.086);
+            font-size: 100px;
+        }
+
+        .Friends{
+            olor : #0400ff05;
+            background-color: #0000002f;
+            height: 100px;
+            width: 500px;
+        }
+
+        .Cousin{
+            background-color: rgba(0, 0, 0, 0.086);
+            font-size: 50px;
+        }
+        .ID{
+            color: red;
+        }
+        .Blog{
+            height: 50%;
+            width: 35%;
+            border: 5px solid black ;
+            border-radius: 25px;
+            background-color: lightblue;
+            margin: 5px;
+            padding: 40px;
+            float: left;
+            display: inline block;
+        }
+
+        img{
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Blog">
+        <h1>Sajek Tour</h1>
+        <p>Last semister we have been complete our sajek tour wich are organized by UITS IT club.</p>
+        <img src = images/idiot's.jpg>
+    </div>
+   
+    <div class="Blog">
+        <h1>Saint-Martin Tour</h1>
+        <p>Last Winter we visit in Saint-Martin wich is one of the bst tour place in Bangladesh.</p>
+        <img src = images/mosharof.jpg>
+    </div>
+    
+
+    <h1>Hello This is my first CSS project.</h1>
+    <h1>Use Style tag with color for h1 tag.</h1>
+    <p class = "Paragraph">Now we want to use a style tag with color for paragraph tag.</p>
+    <p id = "Student_Name">Mosharof Hossain.</p>
+    <p id = "Student_ID">ID = <span class="ID">1844455011</span></p>
+    <p class = "Paragraph">This is use for make class</p>
+
+    <p class = "Friends">Friends -> Tanzil , Moon , Sumona , Rakib , Susan</p>
+    <P Class = "Cousin"> Cousin -> Rakib , Susan , Jishun</P>
+    <P Class = "Cousin Friends"> Friends&Cousin -> Rakib , Susan</P>
+
+
+    
+</body>
+</html>

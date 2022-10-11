@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+
+    color :black;
+   
+    height: 50%;
+    width: 500px;
+}
+
+.Paragraph{
+    color : white ;
+    background-color: black;
+    height: 50%;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Blog{
+    height: 50%;
+    width: 35%;
+    border: 5px solid black ;
+    border-radius: 25px;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 40px;
+    float: left;
+    display: inline block;
+}
